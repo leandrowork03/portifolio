@@ -1,0 +1,46 @@
+#sobre {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2, h3 {
+    color: #0358c2;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .li-sobre {
+    background-color: #f1f1f1;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li strong {
+    color: #0358c2;
+  }
+  
+  a {
+    color: #0358c2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

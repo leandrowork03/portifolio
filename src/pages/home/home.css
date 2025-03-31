@@ -1,0 +1,99 @@
+
+
+
+main{
+  --cor-primaria: rgb(10, 56, 117);
+}
+
+main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #0358c2, #454c57, #424247);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 35px;
+  }
+  
+  @keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+  }
+  
+  .text {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 2s steps(30) forwards, blink 0.7s infinite;
+  }
+  .nome{
+    color: var(--cor-primaria);
+  }
+  
+  @keyframes blink {
+  50% { 
+    border-color: transparent; 
+  }
+  }
+  .container img {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid var(--cor-primaria);
+  transition: 0.2s ease-in-out;
+  }
+  .container img:hover{
+    box-shadow:0 0 15px var(--cor-primaria);
+    width: 350px;
+
+  }
+.container{
+  display: flex;
+  margin: 0 10% 10%;
+  align-items: center;
+}
+.sec1 h1{
+  text-align: center;
+}
+.habilidades{
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  width: 90px;
+  padding: 20px;
+}
+.logo{
+  background-color: #fff;
+  margin: 20px;
+  list-style-type: none;
+  border-radius: 5px;
+}
+.logo:hover{
+  box-shadow: 0 0 30px var(--cor-primaria);
+}
+.exemple{
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+.li-exemple img{
+  width: 500px;
+  display: inline-block;
+  position: relative;
+  transition: 0,5s ease-in-out;
+}
+.li-exemple{
+  margin: 40px;
+  list-style-type: none;
+  justify-content: center;
+  
+}
+
+.li-exemple img:hover{
+  width: 550px;
+}
+.li-exemple:hover p{
+  color: aquamarine;
+}
