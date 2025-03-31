@@ -1,4 +1,5 @@
 import"./home.css"
+import "./responsive.css"
 import minhaft from '../../assets/minhaft.jpg'
 import css from '../../assets/css.png'
 import html5 from '../../assets/htm5l.png'

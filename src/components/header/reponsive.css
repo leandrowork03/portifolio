@@ -1,0 +1,20 @@
+@media (max-width: 630px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background-color: #161616;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .menu.aberto {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
