@@ -18,3 +18,8 @@
       display: block;
     }
   }
+  @media (max-width: 450px){
+    header h1{
+      font-size: medium;
+    }
+  }

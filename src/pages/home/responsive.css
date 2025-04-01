@@ -13,10 +13,41 @@
    .li-exemple img:hover{
     width: 400px;
    }
+   .title2{
+    display: block;
+    margin: 50px;
+   }
+   main h1{
+    display: none;
+   }
+   .container h6{
+    font-size: 20px;
+   }
+
 }
 @media(max-width:500px){
     .habilidades{
         flex-direction: column;
     justify-content: center;
+    }
+    .container img{
+        width: 150px;
+    }
+    .container h6{
+       font-size: 13px; 
+    }
+    .title2{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .li-exemple img{
+        width: 200px;
+    }
+    .li-exemple p {
+        font-size: 13px;
     }
 }

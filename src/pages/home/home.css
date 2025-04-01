@@ -97,3 +97,6 @@ main h1 {
 .li-exemple:hover p{
   color: aquamarine;
 }
+.title2{
+  display: none;
+}

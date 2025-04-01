@@ -14,6 +14,7 @@ export function Home(){
         <>
         <main>
             <h1>sejá muito bem vindo(a) ao meu porfólio</h1>
+            <h2 className="title2">sejá muito bem vindo(a) ao meu porfólio</h2>
             <div className="container">
                <h6 className="text">Olá muito prazer me chamo <br /><b className="nome">Leandro Santos</b> programador Front-End<br /></h6>
                 <img src={minhaft} alt="minha foto de perfil" />

@@ -3,12 +3,14 @@ import linkedin from "../../assets/linkedin.png"
 import github from "../../assets/github.png"
 
 import './contato.css'
+import './responsive.css'
 
 export function Contato() {
   return (
     <main>
-      <div>
+      <div className="div-redes">
         <h1>Contato</h1>
+        <h3>contato</h3>
         <ul className="ul-redes">
           <li className="redes">
             <a href="https://wa.me/5551994089203" target="blank_">

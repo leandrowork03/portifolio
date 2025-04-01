@@ -1,0 +1,18 @@
+@media (max-width:975px){
+    
+    .div-redes h1{
+        display: none;
+    }
+    .div-redes h3{
+        display: block;
+        margin-top: 50px;
+    }
+}
+@media (max-width:500px){
+    .ul-redes{
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px;
+        
+    }
+}

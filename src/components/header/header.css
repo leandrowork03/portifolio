@@ -19,3 +19,6 @@ header h1:hover, a:hover{
     color: orange;
 
 }
+span{
+    display: none;
+}
