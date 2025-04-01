@@ -47,7 +47,7 @@ export function Home(){
                     <p>Página ilustrativa da venda de jogos gta "e-comerce" <br />
                     tecnologias usadas: html, css e JavaScript</p>
 
-                    <a href="https://github.com/leandrowork03/projeto-gta-dev-em-dobro">Projeto np gitHub</a>
+                    <a href="https://github.com/leandrowork03/projeto-gta-dev-em-dobro">Projeto no gitHub</a>
                 </li>
                 <li className="li-exemple">
                     <a href="https://leandrowork03.github.io/projeto-de-frases-aleatorias/" target="blank"><img src={frases} alt="página de frases aleatórias" /></a>
