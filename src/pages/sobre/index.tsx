@@ -87,8 +87,7 @@ export function Sobre() {
         </p>
 
         <p>
-          Se você estiver interessado em colaborar ou aprender mais sobre meu
-          trabalho, não hesite em{" "}
+          Se houver insteresse{" "}
           <a href="mailto:leandrowork03@gmail.com">entrar em contato</a>!
         </p>
       </section>
