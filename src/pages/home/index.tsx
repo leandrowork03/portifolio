@@ -35,7 +35,7 @@ export function Home(){
                 <h3>Exemplos de trabalhos:</h3>
                 <li className="li-exemple">
 
-                    <a href="https://leandrowork03.github.io/InstaLogout-clone/" target="blank_"><img src={instaClone} alt="imagem instagram clone" /></a>
+                    <a href="https://instalogout.netlify.app/" target="blank_"><img src={instaClone} alt="imagem instagram clone" /></a>
                     <p>instagram clone log out funcional, to do list<br />
                     Tecnologias usadas: html, css e javaScript</p>
                     <a href=""></a>
@@ -43,14 +43,14 @@ export function Home(){
                 </li>
             
                 <li className="li-exemple">
-                    <a href="https://leandrowork03.github.io/projeto-gta-dev-em-dobro/" target="blank_"><img src={gta} alt="página do gta" /></a>
+                    <a href="https://chimerical-mermaid-2d57f9.netlify.app//" target="blank_"><img src={gta} alt="página do gta" /></a>
                     <p>Página ilustrativa da venda de jogos gta "e-comerce" <br />
                     tecnologias usadas: html, css e JavaScript</p>
 
                     <a href="https://github.com/leandrowork03/projeto-gta-dev-em-dobro">Projeto no gitHub</a>
                 </li>
                 <li className="li-exemple">
-                    <a href="https://leandrowork03.github.io/projeto-de-frases-aleatorias/" target="blank"><img src={frases} alt="página de frases aleatórias" /></a>
+                    <a href="https://fabulous-mousse-d65620.netlify.app/" target="blank"><img src={frases} alt="página de frases aleatórias" /></a>
                     <p>Página que gera frases aleatórias<br />Projeto desenvolvido com:<br /> React.js ,html ,css e JavaScript para a interface e interatividade</p>
 
                     <a href="https://github.com/leandrowork03/projeto-de-frases-aleatorias">Projeto no gitHub</a>

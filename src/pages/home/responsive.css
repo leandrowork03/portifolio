@@ -47,6 +47,9 @@
     .li-exemple img{
         width: 200px;
     }
+    .li-exemple img:hover{
+        width: 200px;
+      }
     .li-exemple p {
         font-size: 13px;
     }
