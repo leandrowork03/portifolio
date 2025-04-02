@@ -55,7 +55,7 @@ export function Home(){
 
                     <a href="https://github.com/leandrowork03/projeto-de-frases-aleatorias">Projeto no gitHub</a>
                 </li>
-                <h1>Eeste porfólio foi feito com o FrameWork React</h1>
+                <h1>Este porfólio foi feito com o FrameWork React</h1>
                 <h2>React router dom </h2>
             </ul>
 
