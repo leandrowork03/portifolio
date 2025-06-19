@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# 👨‍💻 Portfólio — Leandro Santos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio pessoal! Aqui estão os projetos que desenvolvi para demonstrar minhas habilidades como desenvolvedor Front‑End.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Sobre mim
 
-## Expanding the ESLint configuration
+Sou o **Leandro Santos**, desenvolvedor Front‑End apaixonado por criar interfaces modernas, responsivas e acessíveis. Estou em constante evolução, com foco em **React**, **TypeScript** e boas práticas visando performance, escalabilidade e experiência do usuário.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🌱 Aprofundando meus conhecimentos em:
+- React com hooks e componentes funcionais
+- TypeScript para segurança de tipos
+- Vite para builds rápidas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+🎯 Meus objetivos:
+- Construir aplicações reais e úteis
+- Aprimorar a qualidade do código e experiência do usuário
+- Manter tudo bem documentado e acessível para recrutadores e colegas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Tecnologias
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Frontend:** React, TypeScript, CSS3, HTML5, Vite  
+- **Ferramentas:** Git, GitHub, ESLint, Prettier  
+- **Deploy:** GitHub Pages (via workflow CI/CD)  
+- **Design:** Figma (para prototipagem)
+
+---
+
+## 💼 Projetos em destaque
+
+### 1. Portfolio (este repositório)
+- Estrutura moderna com Vite + React + TS  
+- Deploy automático via GitHub Pages  
+- Estrutura: página principal, seções sobre mim, projetos, habilidades e contato
+
+### 2. Gerador de Frases Aleatórias
+- Projeto React + TypeScript simples, com frase aleatória e estado via `useState`
+
+### 3. (Outros projetos, ex: Tracker financeiro / Dashboard de criptomoedas)
+- Abaixo dos links exibidos no portfólio
+
+---
+
+## 📦 Como rodar este portfólio localmente
+
+1. Clone:
+   ```bash
+   git clone https://github.com/leandrowork03/portifolio.git
+   cd portifolio
