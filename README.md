@@ -69,11 +69,4 @@ Se quiser rodar o projeto localmente:
 
 ---
 
-## ✉️ Contato
-
-- **LinkedIn:** [Seu Nome no LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- **Email:** seu-email@exemplo.com
-
----
-
 **Desenvolvido por Leandro Santos**
